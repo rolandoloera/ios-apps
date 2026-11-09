@@ -1,0 +1,30 @@
+{
+  "name": "Apps de Rolando",
+  "identifier": "com.loera.source",
+  "subtitle": "Apps personales para sideloading",
+  "iconURL": "https://raw.githubusercontent.com/rolandoloera/ios-apps/main/icons/ScoreHide.png",
+  "apps": [
+    {
+      "name": "ScoreHide",
+      "bundleIdentifier": "com.loera.scorehide.ios",
+      "developerName": "Rolando Loera",
+      "subtitle": "Resúmenes de futbol sin spoilers",
+      "localizedDescription": "Partidos de la semana ordenados por relevancia, sin marcadores, y YouTube dentro de la app con los marcadores ocultos (2-1 → ?-?), frases que revelan el resultado ocultas y miniaturas difuminadas. ▶ Ver Directo abre el resumen de un canal oficial ya reproduciéndose.",
+      "iconURL": "https://raw.githubusercontent.com/rolandoloera/ios-apps/main/icons/ScoreHide.png",
+      "tintColor": "00A844",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "1.7.0",
+          "date": "2026-11-09",
+          "localizedDescription": "Versión inicial: partidos sin marcadores, YouTube sin spoilers, Ver Directo, semanas anteriores y próximos imperdibles.",
+          "downloadURL": "https://raw.githubusercontent.com/rolandoloera/ios-apps/main/ipas/ScoreHide-1.7.0.ipa",
+          "size": 376218,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "permissions": []
+    }
+  ],
+  "news": []
+}
