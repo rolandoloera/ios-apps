@@ -5,6 +5,27 @@
   "iconURL": "https://raw.githubusercontent.com/rolandoloera/ios-apps/main/icons/ScoreHide.png",
   "apps": [
     {
+      "name": "PlexLocal",
+      "bundleIdentifier": "com.loera.plexlocal.ios",
+      "developerName": "Rolando Loera",
+      "subtitle": "Música de tu servidor Plex",
+      "localizedDescription": "Música de tu servidor Plex",
+      "iconURL": "https://raw.githubusercontent.com/rolandoloera/ios-apps/main/icons/PlexLocal.png",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "buildVersion": "1",
+          "date": "2026-11-09",
+          "localizedDescription": "Versión 0.1.0.",
+          "downloadURL": "https://raw.githubusercontent.com/rolandoloera/ios-apps/main/ipas/PlexLocal.ipa",
+          "size": 699697,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "permissions": []
+    },
+    {
       "name": "ScoreHide",
       "bundleIdentifier": "com.loera.scorehide.ios",
       "developerName": "Rolando Loera",
@@ -21,6 +42,26 @@
           "localizedDescription": "Versión 1.7.0.",
           "downloadURL": "https://raw.githubusercontent.com/rolandoloera/ios-apps/main/ipas/ScoreHide-1.7.0.ipa",
           "size": 376218,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "permissions": []
+    },
+    {
+      "name": "Vela",
+      "bundleIdentifier": "com.loera.velamaps.ios",
+      "developerName": "Rolando Loera",
+      "subtitle": "",
+      "localizedDescription": "Vela",
+      "iconURL": "https://raw.githubusercontent.com/rolandoloera/ios-apps/main/icons/Vela.png",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "buildVersion": "1",
+          "date": "2026-11-09",
+          "localizedDescription": "Versión 0.1.0.",
+          "downloadURL": "https://raw.githubusercontent.com/rolandoloera/ios-apps/main/ipas/VelaMaps.ipa",
+          "size": 3895187,
           "minOSVersion": "17.0"
         }
       ],
