@@ -1,25 +1,36 @@
-# ios-releases
+# ios-apps
 
-Source de AltStore / SideStore / Feather con mis apps (`apps.json`) y sus `.ipa`.
+Source de AltStore / SideStore / Feather con mis apps.
 
 URL del source: `https://raw.githubusercontent.com/rolandoloera/ios-apps/main/apps.json`
 
-## Publicar una versión nueva
+## Publicar una versión
+
+Sube el `.ipa` a `ipas/` y haz push. La GitHub Action [update-source.yml](.github/workflows/update-source.yml) lee el `Info.plist` de cada `.ipa` (nombre, bundle id, versión, iOS mínimo), regenera `apps.json` y lo guarda en el repo en menos de un minuto.
 
 ```bash
-node add-release.mjs ScoreHide ../score-spoiler-local-ios/ScoreHide.ipa 1.8.0 "Qué cambió"
-git add -A && git commit -m "ScoreHide 1.8.0" && git push
+cp ~/score-spoiler-local-ios/build/ScoreHide.ipa ipas/
+git add ipas && git commit -m "ScoreHide 1.8.0" && git push
 ```
 
-El script copia el `.ipa` a `ipas/<App>-<versión>.ipa` y agrega la versión al inicio de `versions` con la fecha, el tamaño y el `downloadURL`. Si vuelves a publicar la misma versión, reemplaza la entrada anterior.
+- Si cada vez usas el mismo nombre (`ScoreHide.ipa`), el source solo muestra la última versión.
+- Si guardas varios archivos (`ScoreHide-1.7.0.ipa`, `ScoreHide-1.8.0.ipa`), aparecen todas las versiones y la más nueva queda primero.
+- Notas de la versión (opcional): un `.txt` con el mismo nombre que el `.ipa` (`ipas/ScoreHide-1.8.0.txt`). Sin él dice "Versión 1.8.0.".
+- Para ver el resultado: pestaña **Actions** del repo, o abre la URL del source.
 
-## Agregar otra app
+## Archivos
 
-1. Copia su `icon-1024.png` a `icons/<App>.png`.
-2. Agrega `--bundle` la primera vez:
+| Archivo | Para qué |
+|---|---|
+| `ipas/` | Los `.ipa`. Lo único que tienes que tocar normalmente. |
+| `icons/<Nombre>.png` | Ícono de cada app (el `icon-1024.png` de su proyecto). |
+| `meta.json` | Lo que no viene en el `.ipa`: subtítulo, descripción, color, categoría, por bundle id. Una app nueva funciona sin agregarla aquí. |
+| `apps.json` | Lo genera la Action; no se edita a mano. |
+| `scripts/build_source.py` | El generador. Para probarlo local: `python3 scripts/build_source.py`. |
+
+## Si `git push` falla con `HTTP 400` / `RPC failed`
 
 ```bash
-node add-release.mjs PlexLocal ../plexamp-/plexamp-local-ios/build/PlexLocal.ipa 0.1.0 "Primera versión." --bundle com.loera.plexlocal.ios --subtitle "Música de tu servidor Plex"
+git config http.postBuffer 524288000
+git push
 ```
-
-Para cambiar la descripción, el subtítulo o el color de una app, edita `apps.json` a mano.

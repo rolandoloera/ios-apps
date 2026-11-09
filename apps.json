@@ -16,8 +16,9 @@
       "versions": [
         {
           "version": "1.7.0",
+          "buildVersion": "1",
           "date": "2026-11-09",
-          "localizedDescription": "Versión inicial: partidos sin marcadores, YouTube sin spoilers, Ver Directo, semanas anteriores y próximos imperdibles.",
+          "localizedDescription": "Versión 1.7.0.",
           "downloadURL": "https://raw.githubusercontent.com/rolandoloera/ios-apps/main/ipas/ScoreHide-1.7.0.ipa",
           "size": 376218,
           "minOSVersion": "17.0"
