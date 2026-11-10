@@ -5,6 +5,26 @@
   "iconURL": "https://raw.githubusercontent.com/rolandoloera/ios-apps/main/icons/ScoreHide.png",
   "apps": [
     {
+      "name": "Amaz0n",
+      "bundleIdentifier": "com.loera.amaz0n.ios",
+      "developerName": "Rolando Loera",
+      "subtitle": "",
+      "localizedDescription": "Amaz0n",
+      "iconURL": "https://raw.githubusercontent.com/rolandoloera/ios-apps/main/icons/Amaz0n.png",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "buildVersion": "1",
+          "date": "2026-11-10",
+          "localizedDescription": "Versión 1.0.0.",
+          "downloadURL": "https://raw.githubusercontent.com/rolandoloera/ios-apps/main/ipas/Amaz0n.ipa",
+          "size": 517633,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "permissions": []
+    },
+    {
       "name": "PlexLocal",
       "bundleIdentifier": "com.loera.plexlocal.ios",
       "developerName": "Rolando Loera",
