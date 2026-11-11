@@ -56,12 +56,12 @@
       "category": "entertainment",
       "versions": [
         {
-          "version": "1.8.2",
+          "version": "1.8.3",
           "buildVersion": "1",
           "date": "2026-11-11",
-          "localizedDescription": "Versión 1.8.2.",
+          "localizedDescription": "Versión 1.8.3.",
           "downloadURL": "https://raw.githubusercontent.com/rolandoloera/ios-apps/main/ipas/ScoreHide.ipa",
-          "size": 385733,
+          "size": 386237,
           "minOSVersion": "17.0"
         }
       ],
