@@ -15,10 +15,10 @@
         {
           "version": "1.0.0",
           "buildVersion": "1",
-          "date": "2026-11-10",
+          "date": "2026-11-19",
           "localizedDescription": "Versión 1.0.0.",
           "downloadURL": "https://raw.githubusercontent.com/rolandoloera/ios-apps/main/ipas/Amaz0n.ipa",
-          "size": 517633,
+          "size": 551622,
           "minOSVersion": "17.0"
         }
       ],
