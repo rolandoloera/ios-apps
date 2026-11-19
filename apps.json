@@ -36,10 +36,10 @@
         {
           "version": "0.1.0",
           "buildVersion": "1",
-          "date": "2026-11-09",
+          "date": "2026-11-19",
           "localizedDescription": "Versión 0.1.0.",
           "downloadURL": "https://raw.githubusercontent.com/rolandoloera/ios-apps/main/ipas/PlexLocal.ipa",
-          "size": 699697,
+          "size": 727029,
           "minOSVersion": "17.0"
         }
       ],
