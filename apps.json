@@ -58,10 +58,10 @@
         {
           "version": "1.8.5",
           "buildVersion": "1",
-          "date": "2026-11-11",
+          "date": "2026-11-19",
           "localizedDescription": "Versión 1.8.5.",
           "downloadURL": "https://raw.githubusercontent.com/rolandoloera/ios-apps/main/ipas/ScoreHide.ipa",
-          "size": 376218,
+          "size": 406129,
           "minOSVersion": "17.0"
         }
       ],
