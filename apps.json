@@ -13,12 +13,12 @@
       "iconURL": "https://raw.githubusercontent.com/rolandoloera/ios-apps/main/icons/Amaz0n.png",
       "versions": [
         {
-          "version": "1.0.0",
-          "buildVersion": "1",
-          "date": "2026-11-19",
-          "localizedDescription": "Versión 1.0.0.",
+          "version": "1.0.1",
+          "buildVersion": "9",
+          "date": "2026-11-23",
+          "localizedDescription": "Versión 1.0.1.",
           "downloadURL": "https://raw.githubusercontent.com/rolandoloera/ios-apps/main/ipas/Amaz0n.ipa",
-          "size": 551622,
+          "size": 576319,
           "minOSVersion": "17.0"
         }
       ],
